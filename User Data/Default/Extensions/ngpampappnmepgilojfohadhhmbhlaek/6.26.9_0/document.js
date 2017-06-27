@@ -1,0 +1,1 @@
+(function(){function c(a){var b=a.data;b instanceof Array&&a.origin==(document.origin||location.origin)&&1==b[0]&&(a=window[d])&&a.config&&(a=e+JSON.stringify(a.config),window.postMessage([2,null,a],"/"))}var d=atob("eXRwbGF5ZXI="),e=atob("InN3ZmNmZyI6"),b=window[atob("eXRzcGY=")];b&&b.enabled&&window.addEventListener("message",c,!1)})();

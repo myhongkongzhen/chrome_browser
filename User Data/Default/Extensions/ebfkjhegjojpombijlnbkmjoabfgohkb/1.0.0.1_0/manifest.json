@@ -1,0 +1,32 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "*://*.icbc.com/*", "*://*.icbc.com.cn/*", "*://*.dccnet.com.cn/*", "*://*.dccnet.com/*", "*://83.41.146.65/*", "*://83.41.146.66/*", "*://83.41.146.67/*", "*://83.41.146.68/*", "*://83.40.66.21/*", "*://83.41.146.77/*", "*://83.41.146.78/*", "*://83.41.146.79/*", "*://83.41.146.82/*", "*://83.41.146.18/*", "*://83.41.146.30/*", "*://83.41.146.14/*", "*://83.41.146.34/*", "*://83.41.146.86/*", "*://83.41.146.87/*", "*://83.41.146.88/*", "*://83.41.146.89/*", "*://192.168.12.61/*", "*://83.41.146.69/*", "*://83.41.146.70/*", "*://83.41.146.71/*", "*://83.41.146.72/*", "*://83.41.146.73/*", "*://83.41.146.74/*", "*://83.41.146.75/*", "*://83.41.146.76/*", "*://83.41.146.38/*", "*://83.41.146.42/*", "*://83.41.146.46/*", "*://83.41.146.50/*", "*://83.41.146.90/*", "*://83.41.146.91/*", "*://83.41.146.92/*", "*://83.41.146.93/*", "*://localhost/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "ICBC Assist chrome extension",
+   "externally_connectable": {
+      "matches": [ "*://*.icbc.com.cn/*", "*://*.icbc.com/*", "*://*.dccnet.com.cn/*", "*://*.dccnet.com/*", "*://83.41.146.65/*", "*://83.41.146.66/*", "*://83.41.146.67/*", "*://83.41.146.68/*", "*://83.40.66.21/*", "*://83.41.146.77/*", "*://83.41.146.78/*", "*://83.41.146.79/*", "*://83.41.146.82/*", "*://83.41.146.18/*", "*://83.41.146.30/*", "*://83.41.146.14/*", "*://83.41.146.34/*", "*://83.41.146.86/*", "*://83.41.146.87/*", "*://83.41.146.88/*", "*://83.41.146.89/*", "*://192.168.12.61/*", "*://83.41.146.69/*", "*://83.41.146.70/*", "*://83.41.146.71/*", "*://83.41.146.72/*", "*://83.41.146.73/*", "*://83.41.146.74/*", "*://83.41.146.75/*", "*://83.41.146.76/*", "*://83.41.146.38/*", "*://83.41.146.42/*", "*://83.41.146.46/*", "*://83.41.146.50/*", "*://83.41.146.90/*", "*://83.41.146.91/*", "*://83.41.146.92/*", "*://83.41.146.93/*", "*://localhost/*" ]
+   },
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlXpfFnkKyS6pCcRzTrREWXo2K7E1z04VS4Hi1XPKSjl+Kbauk93u656BKtN3aVp02j4CpBQbSdB3B0v8oyF68GLoowZEOLypaOAsmtokoPsEQJ2HdD1L7Uz+/KIf7OmYRPXvtJn0l4IgJDrHu1FVZ76diBsUJE39bcJbmQtVyDe/0c8Y6TRnVMxnF+62zpl7bOqrSvwyOgUdlVjJ5fD8OH5nGLEUMKP+unj/PDqadtIxDtIYHxIiUIq25gL2R4cIWufAmBlxR1hc5Qc+nNJjjuZJBEyzU2ytic0zyDOuon/BFl4+Ym8dua7cphz4NtpAL0Of2TxefykGveuhyHbGHwIDAQAB",
+   "manifest_version": 2,
+   "name": "ICBCAssistChromeExtension",
+   "page_action": {
+      "default_icon": "icon-128.png",
+      "default_title": "ICBCNewChromeExtension"
+   },
+   "permissions": [ "declarativeContent", "nativeMessaging", "cookies", "tabs", "http://*.icbc.com.cn/*", "https://*.icbc.com.cn/*", "browsingData", "history" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.1",
+   "web_accessible_resources": [ "*.png" ]
+}
