@@ -1,1 +1,6 @@
-2017/06/27-21:16:08.400 4972 Reusing MANIFEST D:\02_workspace\myproject\quickstart\Chrome\User Data\Default\Session Storage/MANIFEST-000001
+2017/06/27-21:22:59.968 2836 Reusing MANIFEST D:\02_workspace\Chrome\User Data\Default\Session Storage/MANIFEST-000001
+2017/06/27-21:22:59.968 2836 Recovering log #3
+2017/06/27-21:22:59.968 2836 Reusing old log D:\02_workspace\Chrome\User Data\Default\Session Storage/000003.log 
+2017/06/27-21:23:11.537 1420 Level-0 table #5: started
+2017/06/27-21:23:11.624 1420 Level-0 table #5: 44221 bytes OK
+2017/06/27-21:23:11.724 1420 Delete type=0 #3
